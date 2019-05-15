@@ -11,7 +11,7 @@ const getUsers = (fetch) => {
         });
 }
 
-getUsers(fetch).then(res => console.log(res))
+getUsers(fetch).then(res => console.log("Completed"))
 
 module.exports = {
     getUsers
